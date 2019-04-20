@@ -4,11 +4,11 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgresql://localhost:5432/db_name'
+    connection: 'postgresql://localhost:5432/ropeinst'
   },
   test: {
     client: 'pg',
-    connection: 'postgresql://localhost:5432/db_name'
+    connection: 'postgresql://localhost:5432/ropeinst'
   },
   production: {
     client: 'pg',
